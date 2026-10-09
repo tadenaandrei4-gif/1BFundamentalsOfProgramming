@@ -14,7 +14,6 @@ public class ScholarshipJOptionPane {
 
             String result = "";
 
-            // Evaluation Logic
             if (salary > 10000 || nsat < 90 || entrance < 85) {
                 result = "REJECTED";
             } else if (salary <= 3500 && ((nsat + entrance) / 2.0) >= 91) {
