@@ -15,7 +15,6 @@ public class ScholarshipBufferedReader {
         System.out.print("Enter Entrance examination score: ");
         double entrance = Double.parseDouble(reader.readLine());
 
-        // Evaluation Logic
         if (salary > 10000 || nsat < 90 || entrance < 85) {
             System.out.println("REJECTED");
         } else if (salary <= 3500 && ((nsat + entrance) / 2.0) >= 91) {
